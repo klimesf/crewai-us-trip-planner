@@ -1,77 +1,124 @@
-**10-Day Road Trip Itinerary: Los Angeles, CA to National Parks**
+### Itinerary for National Park Road Trip
 
-**Day 1: Los Angeles to Joshua Tree National Park**
-- **Travel Distance**: 198.7 km
-- **Travel Time**: 2 hrs 17 min
-- **Accommodation**: Field Station Joshua Tree ($107/night)
-- **Dining Options**: 
-  - Joshua Tree Saloon: Great atmosphere and food.
-  - Crossroads Cafe: Local favorite for breakfast.
-  - Pappy and Harriet's: Music and BBQ.
-- **Activities**: Hike Hidden Valley and Barker Dam.
+**Total Trip Duration**: July 3, 2025 - July 13, 2025
 
-**Day 2: Explore Joshua Tree National Park**
-- **Activities**: Continue exploring. 
+#### Day 1: July 3 - Arrival in Los Angeles
+- **Activity**: Arrive in Los Angeles, CA, and pick up rental car.
+- **Recommended Rental Company**: Enterprise Rent-A-Car
+- **Vehicle Class**: Standard SUV (e.g., Ford Edge)
+- **Price**: $45/day
+- **Link**: [Enterprise - SUV Rentals](https://www.enterprise.com/en/car-rental-locations/us/ca/los-angeles/suv.html)
 
-**Day 3: Joshua Tree to Death Valley National Park**
-- **Travel Distance**: 477.1 km
-- **Travel Time**: 4 hrs 55 min
-- **Accommodation**: Death Valley Inn ($106/night)
+#### Day 2: July 4 - Drive to Sequoia National Park
+- **Departure**: 8:00 AM
+- **Arrival**: 12:00 PM
+- **Distance**: 367.1 km
+- **Duration**: 4 hours
+- **Accommodation**: Wuksachi Lodge
+  - **Price**: $200/night
+  - **Link**: [Wuksachi Lodge](https://www.visitsequoia.com/stay/lodging/) 
 - **Dining Options**:
-  - Toll Road Restaurant: Diverse meals.
-  - The Inn at Death Valley Dining: Fine dining experience.
-- **Activities**: Visit Badwater Basin, Zabriskie Point.
+  - The Peaks Restaurant: $15 - $30 [Link](https://www.tripadvisor.com/Restaurant_Review-g143050-d1224871-Reviews-The_Peaks_Restaurant-Sequoia_and_Kings_Canyon_National_Park_California.html)
+- **Activities**: Explore General Sherman Tree and Giant Forest.
 
-**Day 4: Explore Death Valley National Park**
-- **Activities**: Visit Mesquite Flat Sand Dunes and additional park highlights.
+#### Day 3: July 5 - Kings Canyon Day Trip
+- **Departure from Lodge**: 9:00 AM
+- **Arrival in Kings Canyon**: 10:00 AM
+- **Distance**: 50 km
+- **Duration**: 1 hour
+- **Dinner**: Return to Wuksachi Lodge.
+- **Activities**: Visit Cedar Grove and Zumwalt Meadows.
 
-**Day 5: Death Valley to Zion National Park**
-- **Travel Distance**: 459.5 km
-- **Travel Time**: 5 hrs 12 min
-- **Accommodation**: Best Western Plus Zion Canyon Inn & Suites (Approx. $130/nigth)
+#### Day 4: July 6 - Drive to Death Valley National Park
+- **Departure**: 9:00 AM
+- **Arrival**: 1:00 PM
+- **Distance**: 620.4 km
+- **Duration**: 5 hours
+- **Accommodation**: The Ranch at Death Valley
+  - **Price**: $220/night
+  - **Link**: [The Ranch At Death Valley](https://www.nps.gov/deva/planyourvisit/lodging.htm)
 - **Dining Options**:
-  - Zion Lodge Dining Room: Local flavors.
-  - Oscar's Cafe: Casual dining.
+  - The Inn at Death Valley Dining Room: $30 - $60 [Link](https://www.tripadvisor.com/Restaurant_Review-g143021-d950588-Reviews-The_Inn_at_Death_Valley_Dining_Room-Death_Valley_National_Park_California.html)
+- **Activities**: Visit Badwater Basin and Zabriskie Point.
+
+#### Day 5: July 7 - Drive to Las Vegas
+- **Departure**: 10:00 AM
+- **Arrival**: 12:00 PM
+- **Distance**: 205.4 km
+- **Duration**: 2 hours
+- **Accommodation**: Bellagio Las Vegas
+  - **Price**: $300/night
+  - **Link**: [Bellagio Las Vegas](https://www.bellagio.com/)
+- **Dining Options**:
+  - Gordon Ramsay Hell's Kitchen: $60 - $100 [Link](https://www.hellskitchenlasvegas.com/)
+- **Activities**: Explore the Las Vegas Strip.
+
+#### Day 6: July 8 - Drive to Zion National Park
+- **Departure**: 9:00 AM
+- **Arrival**: 11:30 AM
+- **Distance**: 258.3 km
+- **Duration**: 2.5 hours
+- **Accommodation**: Zion Lodge
+  - **Price**: $250/night
+  - **Link**: [Zion Lodge](https://zionlodge.com/)
+- **Dining Options**:
+  - Zion Lodge Dining Room: $20 - $40 [Link](https://www.tripadvisor.com/Restaurant_Review-g143057-d112743-Reviews-Zion_Lodge_Dining_Room-Zion_National_Park_Utah.html)
 - **Activities**: Hike Angels Landing.
 
-**Day 6: Explore Zion National Park**
-- **Activities**: Scenic drive and additional hikes.
-
-**Day 7: Zion to Bryce Canyon National Park**
-- **Travel Distance**: 235.7 km
-- **Travel Time**: 2 hrs 47 min
-- **Accommodation**: Circle D Motel ($120/night)
+#### Day 7: July 9 - Day Trip to Bryce Canyon
+- **Departure**: 9:00 AM
+- **Arrival**: 10:30 AM
+- **Distance**: 235.7 km
+- **Duration**: 1.5 hours
+- **Accommodation**: The Lodge at Bryce Canyon
+  - **Price**: $200/night
+  - **Link**: [The Lodge at Bryce Canyon](https://www.nps.gov/brca/planyourvisit/lodging.htm)
 - **Dining Options**:
-  - Bryce Canyon Pines Restaurant: Family-style.
-  - The Lodge at Bryce Canyon Restaurant: Delights from local ingredients.
-- **Activities**: Walk the Rim Trail.
+  - Bryce Canyon Pines Restaurant: $15 - $30 [Link](https://www.tripadvisor.com/Restaurants-g143015-Bryce_Canyon_National_Park_Utah.html)
+- **Activities**: Hike among hoodoos.
 
-**Day 8: Bryce Canyon to Antelope Canyon**
-- **Travel Distance**: 223.9 km
-- **Travel Time**: 2 hrs 31 min
-- **Accommodation**: Hampton Inn & Suites Page - Lake Powell ($150/night)
+#### Day 8: July 10 - Drive to Monument Valley
+- **Departure**: 9:00 AM
+- **Arrival**: 2:00 PM
+- **Distance**: 436.2 km
+- **Duration**: 4 hours
+- **Accommodation**: The View Hotel
+  - **Price**: $250/night
+  - **Link**: [The View Hotel](https://www.tripadvisor.com/Hotels-g57072-Monument_Valley_Utah-Hotels.html)
 - **Dining Options**:
-  - Big John's Texas BBQ: Great BBQ and live music.
-  - Jádí'To'oh Restaurant: Unique floating dining.
-- **Activities**: Guided tour at Antelope Canyon and visit Horseshoe Bend.
+  - Goulding's Lodge Dining Room: $15 - $30 [Link](https://www.tripadvisor.com/Restaurant_Review-g57072-d1058259-Reviews-Goulding_s_Lodge_Dining_Room-Monument_Valley_Utah.html)
+- **Activities**: Guided tour of Monument Valley.
 
-**Day 9: Antelope Canyon to Grand Canyon National Park**
-- **Travel Distance**: 430.7 km
-- **Travel Time**: 5 hrs 25 min
-- **Accommodation**: Maswik Lodge ($190/night)
+#### Day 9: July 11 - Drive to Grand Canyon
+- **Departure**: 9:00 AM
+- **Arrival**: 12:00 PM
+- **Distance**: 200 km
+- **Duration**: 3 hours
+- **Accommodation**: Grand Canyon Lodge
+  - **Price**: $250/night
+  - **Link**: [Grand Canyon Lodge](https://www.grandcanyonlodges.com/)
 - **Dining Options**:
-  - El Tovar Dining Room: High-end with canyon views.
-  - Grand Canyon Lodge Dining Room: Family-friendly meals.
-- **Activities**: Explore the South Rim and short hikes.
+  - Grand Canyon Lodge Dining Room: $20 - $40 [Link](https://www.tripadvisor.com/Restaurant_Review-g143028-d1991390-Reviews-Grand_Canyon_Lodge_Dining_Room-Grand_Canyon_National_Park_Arizona.html)
+- **Activities**: Visit Mather Point.
 
-**Day 10: Grand Canyon to Los Angeles**
-- **Travel Distance**: 791.5 km
-- **Travel Time**: 7 hrs 57 min
-- **Plan to return to LA by**: 5 PM. Starting your return trip by 8 AM ensures timely return of the rental car and airport check-in.
+#### Day 10: July 12 - Drive back to Los Angeles
+- **Departure**: 8:00 AM
+- **Arrival**: 3:00 PM
+- **Distance**: 700 km
+- **Duration**: 7 hours
+- **Drop-off location**: LAX
+- Ensure enough time to return rental car and catch your flight home at 5 PM.
 
-**Total Travel Summary:**
-- **Total Distance**: 2817.1 km
-- **Total Travel Time**: 32 hrs 17 min
+### Estimated Total Costs:
+- **Rental Car**: $45/day x 10 days = $450
+- **Accommodations**: Approx. $200/night x 8 nights = $1600
+- **Dining**: Approx. $30/day x 10 days x 5 people = $1500
+- **Total**: $450 + $1600 + $1500 = $3550
 
-Adjust this itinerary as necessary for additional stops or personal preferences! Enjoy your trip!
+### Important Notes:
+- Make reservations in advance, especially for lodging and dining.
+- Ensure there is enough time for flexibility in the driving schedule.
+- Check for local regulations, entrance fees to National Parks, and any additional activity costs.
+
+This itinerary provides a comprehensive and enjoyable trip through some of the most breathtaking landscapes in the United States while allowing ample time for exploration and relaxation.
 
