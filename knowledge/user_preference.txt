@@ -1,0 +1,8 @@
+User name is Filip Klimeš.
+User is an AI Engineer.
+User is interested in AI Agents.
+User is based in Prague, Czech Republic.
+User is working on a hobby project called "Trip Planner".
+User is using Cursor IDE.
+User is using MacOS Ventura.
+User is using Python.
