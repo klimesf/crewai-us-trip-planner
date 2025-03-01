@@ -3,6 +3,7 @@ from crewai.project import CrewBase, agent, crew, task
 from us_trip_planner.tools.search_tool import SearchTool
 from us_trip_planner.tools.calculator_tool import CalculatorTool
 from us_trip_planner.tools.mapycz_tool import MapyCzTool
+from us_trip_planner.tools.browser_tool import BrowserTool
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 
@@ -18,7 +19,23 @@ class UsTripPlanner():
         return Agent(
             config=self.agents_config['attraction_selection_agent'],
             verbose=True,
-            tools=[SearchTool()]
+            tools=[SearchTool(), BrowserTool()]
+        )
+
+    @agent
+    def accommodation_scouting_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['accommodation_scouting_agent'],
+            verbose=True,
+            tools=[SearchTool(), BrowserTool()]
+        )
+
+    @agent
+    def foodie_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['foodie_agent'],
+            verbose=True,
+            tools=[SearchTool(), BrowserTool()]
         )
 
     @agent
@@ -26,7 +43,7 @@ class UsTripPlanner():
         return Agent(
             config=self.agents_config['route_planner'],
             verbose=True,
-            tools=[SearchTool(), MapyCzTool(), CalculatorTool()]
+            tools=[SearchTool(), MapyCzTool(), CalculatorTool(), BrowserTool()]
         )
 
     @task
@@ -36,6 +53,24 @@ class UsTripPlanner():
             expected_output=self.tasks_config['identify_task']['expected_output'],
             agent=self.attraction_selection_agent(),
             output_file='attractions_report.md'
+        )
+
+    @task
+    def accommodation_task(self) -> Task:
+        return Task(
+            description=self.tasks_config['accommodation_task']['description'],
+            expected_output=self.tasks_config['accommodation_task']['expected_output'],
+            agent=self.accommodation_scouting_agent(),
+            output_file='accommodation_report.md'
+        )
+
+    @task
+    def foodie_task(self) -> Task:
+        return Task(
+            description=self.tasks_config['foodie_task']['description'],
+            expected_output=self.tasks_config['foodie_task']['expected_output'],
+            agent=self.foodie_agent(),
+            output_file='foodie_report.md'
         )
 
     @retry(
@@ -57,7 +92,8 @@ class UsTripPlanner():
 
         return Crew(
             agents=self.agents,  # Automatically created by the @agent decorator
-            tasks=[self.identify_task(), self.plan_route_task()],
+            tasks=[self.identify_task(), self.accommodation_task(),
+                   self.foodie_task(), self.plan_route_task()],
             process=Process.sequential,
             verbose=True,
             # process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/

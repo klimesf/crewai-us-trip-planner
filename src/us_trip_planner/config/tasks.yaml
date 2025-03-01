@@ -1,34 +1,44 @@
 identify_task:
   description: >
-    Identify the best natural parks to visit in the West Coast of the United States (California, Utah, Arizona).
-    Find the best food to eat in the areas.
-    The trip starts on {start_date} and ends on {end_date}.
-    Find the best hotels to stay in the areas.
+    Identify the best natural parks to visit in the West Coast of the United States (California, Utah, Arizona) in a 10 day trip.
+    The year is 2025.
     Do not include any activities that are not related to nature or the outdoors.
     Do not go overboard with the budget, we want to be able to enjoy the trip without breaking the bank.
+    We will be using a rental car, so we need to find places reachable by car from Los Angeles, CA.
   input_variables:
     - start_date
     - end_date
   expected_output: >
     A list of the best natural parks to visit in the West Coast of the United States (California, Utah, Arizona)
-    A list of the best hotels to stay in the areas
+
+accommodation_task:
+  description: >
+    Find the best accommodations to stay around the selected attractions.
+  expected_output: >
+    A list of the best accommodations to stay around the selected attractions.
+    We will be using a rental car, so we need to find places that have parking available.
+
+foodie_task:
+  description: >
+    Find the best food to eat around the selected attractions and accommodations.
+  expected_output: >
+    A list of the best local food to eat around the selected attractions and accommodations.
+    We should try to find places that are not too expensive but also good quality. Fast food is allowed since we are on the go.
 
 plan_route_task:
   description: >
-    Plan the most comfortable and efficient route to visit the selected attractions and activities, taking into account the weather and the traffic, and the best places to eat.
-    We will be using a rental car, so we need to find the best places to park the car.
-    Keep in mind that we would like to be able to drive to the next destination from the current one.
+    Plan the most comfortable and efficient route to visit the selected attractions and activities, while staying in the selected accommodations over night.
+    We will be using a rental car, so we need to find the best places to park the car and the best places to eat.
+    IMPORTANT: Keep in mind that we need to be able to drive between the destinations in the most efficient way possible.
     We are starting on {start_date} and ending on {end_date}.
     We are departing from Los Angeles, CA, and we will be driving to the selected attractions and activities using a rental car.
-    We will return to Los Angeles, CA on {end_date}.
-    Do not include any activities that are not related to the selected attractions and activities.
-    Do not go overboard with the budget, we want to be able to enjoy the trip without breaking the bank.
+    We will return to Los Angeles, CA on {end_date}, and we need ample time to return the rental car and catch the flight home at 5pm.
     There should be plenty of time to enjoy the trip and not be rushed.
   input_variables:
     - start_date
     - end_date
   expected_output: >
     A trip route with the best places to visit, the best places to eat, and the best places to park the car.
+    Each destination should include the expected arrival time and the expected departure time, the accommodation, the attractions to visit, and the best places to eat.
     It should include total distance in kilometers and estimated travel time in hours between each destination.
-    It should be a list of destinations with the name of the destination, the distance to the next destination, and the estimated travel time to the next destination.
-    It should start and end in Los Angeles, CA.
+    The trip should start and end in Los Angeles, CA, with enough time to adjust to the jet lag, get the rental car in LA and then return it in LA and get to the airport on time.
