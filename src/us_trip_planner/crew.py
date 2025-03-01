@@ -4,7 +4,6 @@ from us_trip_planner.tools.search_tool import SearchTool
 from us_trip_planner.tools.calculator_tool import CalculatorTool
 from us_trip_planner.tools.mapycz_tool import MapyCzTool
 from us_trip_planner.tools.browser_tool import BrowserTool
-from tenacity import retry, stop_after_attempt, wait_exponential
 
 
 @CrewBase
@@ -35,7 +34,15 @@ class UsTripPlanner():
         return Agent(
             config=self.agents_config['foodie_agent'],
             verbose=True,
-            tools=[SearchTool(), BrowserTool()]
+            tools=[SearchTool(), BrowserTool(), CalculatorTool()]
+        )
+
+    @agent
+    def rental_car_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['rental_car_agent'],
+            verbose=True,
+            tools=[SearchTool(), BrowserTool(), CalculatorTool()]
         )
 
     @agent
@@ -73,10 +80,15 @@ class UsTripPlanner():
             output_file='foodie_report.md'
         )
 
-    @retry(
-        stop=stop_after_attempt(3),
-        wait=wait_exponential(multiplier=1, min=4, max=10)
-    )
+    @task
+    def rental_car_task(self) -> Task:
+        return Task(
+            description=self.tasks_config['rental_car_task']['description'],
+            expected_output=self.tasks_config['rental_car_task']['expected_output'],
+            agent=self.rental_car_agent(),
+            output_file='rental_car_report.md'
+        )
+
     @task
     def plan_route_task(self) -> Task:
         return Task(
@@ -93,7 +105,7 @@ class UsTripPlanner():
         return Crew(
             agents=self.agents,  # Automatically created by the @agent decorator
             tasks=[self.identify_task(), self.accommodation_task(),
-                   self.foodie_task(), self.plan_route_task()],
+                   self.foodie_task(), self.rental_car_task(), self.plan_route_task()],
             process=Process.sequential,
             verbose=True,
             # process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/

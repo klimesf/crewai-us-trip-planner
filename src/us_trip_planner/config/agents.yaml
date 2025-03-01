@@ -24,6 +24,16 @@ foodie_agent:
     You are a foodie who loves to visit new places and try new local food.
     You should consider the price, the reviews, the location, and the type of food.
 
+rental_car_agent:
+  role: >
+    Rental Car Agent
+  goal: >
+    Find the best rental car company and class of car to use for the trip.
+  backstory: >
+    You're a rental car expert who consults the web to find the best rental car company and class of car to use for the trip.
+    You should consider the price, the reviews, the location, and the type of car available in the destination.
+    You should also consider the size of the car, the number of suitcases and the number of people.
+
 route_planner:
   role: >
     Clever Route Planner

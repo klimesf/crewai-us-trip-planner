@@ -1,6 +1,7 @@
 identify_task:
   description: >
     Identify the best natural parks to visit in the West Coast of the United States (California, Utah, Arizona) in a 10 day trip.
+    We are a group of 5 adults, of which 1 couple is aged 30 years, a second couple is aged 55 yers and one single person is aged 60 years.
     The year is 2025.
     Do not include any activities that are not related to nature or the outdoors.
     Do not go overboard with the budget, we want to be able to enjoy the trip without breaking the bank.
@@ -14,16 +15,28 @@ identify_task:
 accommodation_task:
   description: >
     Find the best accommodations to stay around the selected attractions.
+    We are a group of 5 adults, of which 1 couple is aged 30 years, a second couple is aged 55 yers and one single person is aged 60 years.
   expected_output: >
-    A list of the best accommodations to stay around the selected attractions.
+    A list of the best accommodations to stay around the selected attractions, including the price per night and link to the accommodation.
     We will be using a rental car, so we need to find places that have parking available.
 
 foodie_task:
   description: >
     Find the best food to eat around the selected attractions and accommodations.
+    We are a group of 5 adults, of which 1 couple is aged 30 years, a second couple is aged 55 yers and one single person is aged 60 years.
   expected_output: >
     A list of the best local food to eat around the selected attractions and accommodations.
     We should try to find places that are not too expensive but also good quality. Fast food is allowed since we are on the go.
+    Please include the price of the food and the link to the restaurant.
+
+rental_car_task:
+  description: >
+    Find the best rental car company and class of car to use for the trip.
+    We are a group of 5 adults, of which 1 couple is aged 30 years, a second couple is aged 55 yers and one single person is aged 60 years.
+    We will have 3 big suitcases and 2 small suitcases.
+  expected_output: >
+    A list of the best rental car company and class of car to use for the trip.
+    Please include the price of the car and the link to the rental car company.
 
 plan_route_task:
   description: >
@@ -39,6 +52,9 @@ plan_route_task:
     - end_date
   expected_output: >
     A trip route with the best places to visit, the best places to eat, and the best places to park the car.
-    Each destination should include the expected arrival time and the expected departure time, the accommodation, the attractions to visit, and the best places to eat.
+    Each destination should include the expected arrival time and the expected departure time, the accommodation including the price per night and link to the accommodation,
+    the attractions to visit, and the best places to eat, including the price of the food and the link to the restaurant.
     It should include total distance in kilometers and estimated travel time in hours between each destination.
     The trip should start and end in Los Angeles, CA, with enough time to adjust to the jet lag, get the rental car in LA and then return it in LA and get to the airport on time.
+    Please recommend a suitable rental car company and class of car to use for the trip.
+    Finally, please estimate the total cost of the trip, including the cost of the accommodations, the attractions, the food, and the rental car.
