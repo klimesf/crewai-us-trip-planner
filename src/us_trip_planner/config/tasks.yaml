@@ -6,6 +6,7 @@ identify_task:
     Do not include any activities that are not related to nature or the outdoors.
     Do not go overboard with the budget, we want to be able to enjoy the trip without breaking the bank.
     We will be using a rental car, so we need to find places reachable by car from Los Angeles, CA.
+    Please prefer going to Monument Valley and Sequoia National Park, if possible.
   input_variables:
     - start_date
     - end_date
